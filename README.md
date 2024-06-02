@@ -2,13 +2,22 @@
 ## Logic Pro 11 の新機能 「Stem Splitter」と「Session Player」を使ってセッション曲のバッキングトラックを作る
   
 ### パターン１：音源を取り込み、「Stem Splitter」でドラムとベースを抽出する
-1. 新規作成し、音源のファイルをリージョンとして取り込む。
+1. 新規作成し、音源のファイルをリージョンとして取り込む。  
 2. グローバルトラックを表示し、リージョンのテンポをプロジェクト全体に適用し、小節の区切りを音源に合わせる。
-3. 「Stem Splitter」でボーカル、ドラム、ベース、その他、の４つのトラックに分ける。
-4. アレンジメントで曲の構成を入力する。
-5. マーカーを入力する
-6. コードトラックにコードを入力する
-7. 「Session Player」を挿入する。
+3. 音源の後ろに空白の小節があったら、ルーラーの右端をドラックして小節数を音源に合わせる。
+4. 「Stem Splitter」でボーカル、ドラム、ベース、その他、の４つのトラックに分ける。
+5. アレンジメントで曲の構成を入力する。
+6. マーカーを入力して、繰り返しがわかるようにする
+7. コードトラックにコードを入力する。繰り返し部分は、コピペする。小節途中のコードチェンジは、次の小節をドラッグして調節する。
+8. 「Session Player」を挿入する。
+
+### Session Player の設定項目
+1. 「タイプ」：①Acoustic Drummer、②Electronic Drummer、③Percussionists、④Bass Player、⑤Keyboard Player
+2. ①Acoustic Drummer の「スタイル」：Rock「Pop Rock、Retro Rock、Hard Rock、Punk Rock、Fnk Rock、Psychedelic Rock」、Songwriter「Funky Songwriter、Pop Songwriter、Experimental Songwriter、Roots Songwriter、60s Songwriter、Roots Brush、Pop Brush」、Alternative「Indie Pop、Indie Disco、Indie Rock、Garage Rock」、R&B「Modern R&B、Neo Soul、Modern Motown」
+3. ②Electronic Drummer の「スタイル」：Electronic「Big Room EDM、Tech House、Bubstep、Electro Trap、Modern House」、Hip Hop「Trap、Modern Hip Hop、Boom Bap」、Alternative「Modern 80s、Synthpop」
+4. ③Percussionists の「スタイル」：Parcussion「Latin、Pop、Songwriter」
+5. ④Bass Player の「スタイル」：Rock「Pop Rock、Retro Rock」、Songwriter「Pop Songwriter、Roots Upright」、Alternative「Indie Disco、Disco Slap」、R&B「Modern R&B、Modern Motown」
+6. ⑤Keyboard Player の「スタイル」：「Freely、Broken Chords、Block Chords、Arpegiated、Simple Pad」
 
 ### パターン２：「コードトラックを作成して、SessionPlayerを配置して作る」の大まかな流れ
 1. 新規作成し、「グローバルトラック」で「マーカー」を作成し、「イントロ、Aパート、Bパート、ブリッジ」などの進行の大枠を作る。
