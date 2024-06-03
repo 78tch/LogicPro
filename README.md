@@ -12,12 +12,17 @@
 8. 「Session Player」を挿入する。
 
 ### Session Player の設定項目
-1. 「タイプ」：①Acoustic Drummer、②Electronic Drummer、③Percussionists、④Bass Player、⑤Keyboard Player
-2. ①Acoustic Drummer の「スタイル」：Rock「Pop Rock、Retro Rock、Hard Rock、Punk Rock、Fnk Rock、Psychedelic Rock」、Songwriter「Funky Songwriter、Pop Songwriter、Experimental Songwriter、Roots Songwriter、60s Songwriter、Roots Brush、Pop Brush」、Alternative「Indie Pop、Indie Disco、Indie Rock、Garage Rock」、R&B「Modern R&B、Neo Soul、Modern Motown」
-3. ②Electronic Drummer の「スタイル」：Electronic「Big Room EDM、Tech House、Bubstep、Electro Trap、Modern House」、Hip Hop「Trap、Modern Hip Hop、Boom Bap」、Alternative「Modern 80s、Synthpop」
-4. ③Percussionists の「スタイル」：Parcussion「Latin、Pop、Songwriter」
-5. ④Bass Player の「スタイル」：Rock「Pop Rock、Retro Rock」、Songwriter「Pop Songwriter、Roots Upright」、Alternative「Indie Disco、Disco Slap」、R&B「Modern R&B、Modern Motown」
-6. ⑤Keyboard Player の「スタイル」：「Freely、Broken Chords、Block Chords、Arpegiated、Simple Pad」
+1. 設定項目としては、「タイプ」「スタイル」「プリセット」がある。
+2. まず「タイプ」で、ドラムかベースかキーボードかを選ぶ。
+3. 「スタイル」で音楽的ジャンルを選ぶ。
+4. 「プリセット」で細かなニュアンスを調整する。
+5. 「タイプ」：①Acoustic Drummer、②Electronic Drummer、③Percussionists、④Bass Player、⑤Keyboard Player
+6. ①Acoustic Drummer の「スタイル」：Rock「Pop Rock、Retro Rock、Hard Rock、Punk Rock、Fnk Rock、Psychedelic Rock」、Songwriter「Funky Songwriter、Pop Songwriter、Experimental Songwriter、Roots Songwriter、60s Songwriter、Roots Brush、Pop Brush」、Alternative「Indie Pop、Indie Disco、Indie Rock、Garage Rock」、R&B「Modern R&B、Neo Soul、Modern Motown」
+7. ②Electronic Drummer の「スタイル」：Electronic「Big Room EDM、Tech House、Bubstep、Electro Trap、Modern House」、Hip Hop「Trap、Modern Hip Hop、Boom Bap」、Alternative「Modern 80s、Synthpop」
+8. ③Percussionists の「スタイル」：Parcussion「Latin、Pop、Songwriter」
+9. ④Bass Player の「スタイル」：Rock「Pop Rock、Retro Rock」、Songwriter「Pop Songwriter、Roots Upright」、Alternative「Indie Disco、Disco Slap」、R&B「Modern R&B、Modern Motown」
+10. ⑤Keyboard Player の「スタイル」：「Freely、Broken Chords、Block Chords、Arpegiated、Simple Pad」
+11. 「プリセット」
 
 ### パターン２：「コードトラックを作成して、SessionPlayerを配置して作る」の大まかな流れ
 1. 新規作成し、「グローバルトラック」で「マーカー」を作成し、「イントロ、Aパート、Bパート、ブリッジ」などの進行の大枠を作る。
